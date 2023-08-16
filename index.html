@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="card">
+    <div class="right">
+      <h2>Mantente al Dia!</h2>
+      <p>Únase a más de 60 000 gestores de productos que reciben actualizaciones mensuales sobre:</p>
+      <ul>
+        <li>Descubrimiento de productos y construcción de lo que importa</li>
+        <li>Medición para garantizar el éxito de las actualizaciones</li>
+        <li>Y mucho más.</li>
+      </ul>
+      <form>
+        <label for="email">
+        Dirección e-mail</label>
+        <input type="email" id="email" placeholder="email@company.com">
+        <button type="submit">Suscríbete al boletín mensual</button>
+      </form>
+    </div>
+    <div class="left">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="sign-up">
+    </div>
+  </div>
+
+  
+  <!-- Sign-up form end
+
+  Success message start--> 
+  <div class="card-2 hide">
+    <img src="./assets/images/icon-success.svg" alt="success" class="icon-card-2">
+    <h1>Gracias por suscribirse.</h1>
+    <p>Se ha enviado un correo electrónico de confirmación a ash@loremcompany.com.
+      Por favor, ábrelo y haz clic en el botón de dentro para confirmar tu suscripción.</p>
+    <button>Rechazar mensaje</button>
+  </div>
+
+  <!-- Success message end -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+<script src="./index.js"></script>
+</body>
+</html>
